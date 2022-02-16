@@ -1,0 +1,18 @@
+.button {
+  @apply text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+
+  &__block {
+    @apply sm:w-full;
+  }
+
+  &__primary {
+    @apply bg-blue-600 focus:ring-4 focus:ring-blue-300 hover:bg-blue-700;
+  }
+
+  &__danger {
+    @apply bg-red-600 focus:ring-4 focus:ring-red-300 hover:bg-red-700;
+  }
+}
+.button:disabled {
+  @apply bg-blue-300 pointer-events-none;
+}

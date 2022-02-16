@@ -1,0 +1,6 @@
+.alert {
+  @apply flex p-4 font-medium mb-4 rounded-lg text-sm;
+  &__danger {
+    @apply text-red-700 bg-red-100;
+  }
+}
